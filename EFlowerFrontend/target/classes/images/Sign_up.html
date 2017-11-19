@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+
+<body style="margin:0%">
+<div class="container-fluid">
+<div class="row">
+<nav class="navbar navbar-inverse col-md-12">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="nav.html">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+       
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Sign_in.html"><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
+        <li class="active"><a href="Sign_up.html"><span class="glyphicon glyphicon-registration-mark"></span> Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="container-fluid">
+ 
+  <form action="/action_page.php"style="margin-left:35%;margin-bottom:3%; border:0px solid red; width:350px;">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name" style="width:350px">
+    </div>
+	
+	<div class="form-group">
+      <label for="num">Contact number:</label>
+      <input type="number" class="form-control" id="num" placeholder="Enter your mobile number" name="num" style="width:350px">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" style="width:350px">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"style="width:350px">
+    </div>
+	<div class="form-group">
+      <label for="pwd">Confirm Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" style="width:350px">
+    </div>
+	
+    
+    <button type="submit" class="btn btn-default"style="margin-left:40%">Submit</button>
+  </form>
+</div>
+ 
+</div>
+<div class="container-fluid" style="border:0px solid red; position:relative;">
+<footer class="row" style="background-color: #f2f2f2;  height: 120px; margin-top:12%;border:0px solid black;">
+	 
+
+  <p>Online Store Copyright</p>  
+  
+<div class="footer1">
+<!--<ul style="border:1px solid blue;height:75px;">
+<a href="#" class="li" style="18px solid green"><li style="18px solid green">About Us</li></a>
+<a href="#" class="li"><li >Contact</li></a>
+</ul>-->
+<div style="margin-bottom:2%;"><a href="#">AboutUs</div>
+<div ><a href="#">Contact Us</div>
+</div>
+<div class="footer2">
+<div class="icons" style="border:0px solid black;">
+ <a href="#"><span style="margin-top:12%; border:0px solid black;background-color: white; margin-left:25%; padding: 3px 8px 3px 8px ; border-radius:50%;"> <i class="fa fa-facebook" style="color:blue;margin-top:12%"></i></span></a>
+</div>
+
+<div class="icons_tweeter" style="border:0px solid black">
+<a href="#"><span style="margin-top:12%; border:0px solid black;background-color:white; margin-left:5%; padding:3px 5px 3px 5px; border-radius:50%;"><i class="fa fa-twitter" style="color:blue;margin-top:12%;"></i></span></a>
+
+</div>
+<div class="icons_mail">
+<a href="#"><span style="margin-top:5%;border:0px solid red;margin-left:5%;background-color:red;"><i class="fa fa-envelope" style="color:white;margin-top:4%;"></i></span></a>
+</div>
+
+</div>
+
+  
+ 
+</footer>
+
+</div>
+<link rel="stylesheet" href="F:/demo.css"  />
+</body>
+</html>

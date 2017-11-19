@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+	a:hover{
+		text-decoration:none;
+		
+	}
+	li:hover{
+		color:red;
+	}
+	.submit{
+	margin-left:30%;
+	padding:4px 50px ;
+	font-size:18px;
+	
+	border-radius:10px;
+	border-style:none;
+	border:2px solid #d9d9d9;
+	background-color: #80bfff;
+	color:white;
+	 
+	}
+	.submit:hover{
+		background-color:#66ffff;
+		border:2px solid #4dff4d;
+	}
+	.sp {
+	background-color: white;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom-left-radius: 1155px;
+	border-bottom-right-radius: 1155px;
+	border-top-left-radius: 1155px;
+	border-top-right-radius: 1155px;
+}
+.sp:hover{
+	background-color:#ff3333;
+	color:white;
+}
+.sp1 {
+	background-color: white;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-bottom-left-radius: 1155px;
+	border-bottom-right-radius: 1155px;
+	border-top-left-radius: 1155px;
+	border-top-right-radius: 1155px;
+	margin-left: 3%;
+}
+.sp1:hover{
+	background-color:#ff3333;
+	color:white;
+}
+.sp2 {
+	background-color: white;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom-left-radius: 1155px;
+	border-bottom-right-radius: 1155px;
+	border-top-left-radius: 1155px;
+	border-top-right-radius: 1155px;
+	margin-left: 3%;
+}
+.sp2:hover{
+	background-color:#ff3333;
+	color:white;
+}
+  </style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row" style="background-color:black;height:50px;">
+<nav class="navbar col-md-12">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">FlowerZone</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="nav.html">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="About.html">About Us</a></li>
+       
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Sign_in.html"><span class="glyphicon glyphicon-user"></span> Sign In</a></li>
+        <li><a href="Sign_up.html"><span class="glyphicon glyphicon-registration-mark"></span> Sign Up</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<div  class="row">
+	<div class="col-md-12">
+		<form style="border:0px solid red;width:505px;margin-left:25%;">
+			<div class="form-group">
+				<label>Your name:</label>
+				<input type="text" class="form-control" style="  width:500px;" placeholder="Enter your name"/>
+			</div>
+			<div class="form-group">
+				<label>Your Email:</label>
+				<input type="text" class="form-control" style="  width:500px;" placeholder="Enter your email "/>
+			</div>
+			<div class="form-group">
+				<label>Your Address:</label>
+				<input type="text" class="form-control" style="  width:500px;" placeholder="Enter your address"/>
+			</div>
+			<div class="form-group">
+				<label>Summary:</label>
+				<textarea  class="form-control" style="height:200px; width:500px;"  placeholder="Summary..."></textarea>
+			</div>
+			<input type="submit" value="Submit" class="submit"style=""/>
+		</form>
+	</div>
+</div>
+</div>
+<div class="container-fluid">
+<footer class="row" style="background-color: #f2f2f2;  height: 75px; margin-top:15%;">
+	<div class="col-md-4 col-lg-4 col-sm-4" style="border: 0px solid;">
+		<div style="margin-left: 26%">
+			<ul>
+				<li><a href="contact.html" style="color: black">Contact</a></li>
+				<li><a href="aboutus.html" style="color: black">About Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-md-4"
+		style="border: 0px solid; margin-left: 25%; margin-top: 1%;">
+		<a href="https://www.facebook.com/"><span class="sp"><i
+				class="fa fa-facebook"></i></span></a> <a href="https://twitter.com/Twitter"><span
+			class="sp1"><i class="fa fa-twitter"></i></span></a> <a
+			href="https://plus.google.com"><span class="sp2"><i
+				class="fa fa-google-plus"></i></span></a>
+	</div>
+
+</footer>
+</div>
+</body>
