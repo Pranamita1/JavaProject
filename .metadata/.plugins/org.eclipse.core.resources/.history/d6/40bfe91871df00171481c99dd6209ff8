@@ -1,0 +1,16 @@
+package com.collaboration.backend.Collaboration.Backend.DaoImpl;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+//import org.hibernate.SessionFactory;
+
+import com.collaboration.backend.Collaboration.Backend.Dao.UserDao;
+import com.collaboration.backend.Collaboration.Backend.Model.User;
+
+public class UserDaoImpl implements UserDao {
+ 
+	@Autowired
+	SessionFactory sessionFactory;
+	 
+}

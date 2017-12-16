@@ -1,0 +1,10 @@
+package com.collaboration.backend.Collaboration.Backend.Dao;
+
+import com.collaboration.backend.Collaboration.Backend.Model.User;
+
+public interface UserDao {
+void boolean registerUser(User user);
+boolean isEmailValid(String email);
+boolean isUsernameValid(String username);
+}
+

@@ -1,0 +1,12 @@
+package demo1;
+
+public class Pattern2 {
+	int i,j,k;
+	public void printupClass(){
+		for(i=)
+	}
+	public static void main(String[] abc){
+		
+	}
+
+}

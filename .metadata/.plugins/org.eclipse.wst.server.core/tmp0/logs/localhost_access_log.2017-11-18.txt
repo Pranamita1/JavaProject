@@ -1,0 +1,14 @@
+127.0.0.1 - - [18/Nov/2017:14:04:38 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:44 +0530] "GET /MvnFShop/ HTTP/1.1" 200 6944
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:45 +0530] "GET /MvnFShop/resources/css/Project.css;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947 HTTP/1.1" 200 1447
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:45 +0530] "GET /MvnFShop/resources/images/marguerite-daisy-beautiful-beauty.jpg;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947 HTTP/1.1" 200 307038
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:45 +0530] "GET /MvnFShop/resources/images/Beautiful-Pink-Rose-Wallpaper.jpg;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947 HTTP/1.1" 200 99718
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:45 +0530] "GET /MvnFShop/resources/images/lily_li21.jpg;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947 HTTP/1.1" 200 219492
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:45 +0530] "GET /MvnFShop/resources/images/img1.jpg;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947class=%22img-responsive%22 HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:45 +0530] "GET /MvnFShop/resources/images/ARCHID1.JPG;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947 HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:45 +0530] "GET /MvnFShop/resources/images/tulip1.jpg;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947 HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:45 +0530] "GET /MvnFShop/resources/images/204d4e74b8c10cd917672a929a5c0614--coral-color-coral-pink.jpg;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947 HTTP/1.1" 200 44071
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:46 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:56 +0530] "GET /MvnFShop/Sign_up;jsessionid=8B879AD149D64D3D51E2FB9D71D6C947 HTTP/1.1" 200 4791
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:04:56 +0530] "GET /MvnFShop/resources/css/Project.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Nov/2017:14:05:31 +0530] "POST /MvnFShop/addUser HTTP/1.1" 200 4193

@@ -1,0 +1,5 @@
+package com.collaboration.backend.Controller;
+
+public class UserController {
+
+}

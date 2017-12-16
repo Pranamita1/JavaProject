@@ -1,0 +1,5 @@
+package com.collaboration.backend.config;
+
+public class CORSFilter {
+
+}

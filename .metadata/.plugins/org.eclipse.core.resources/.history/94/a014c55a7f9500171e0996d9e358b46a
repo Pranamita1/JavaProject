@@ -1,0 +1,12 @@
+package pack;
+//import java.util.Scanner;
+	public class ArrayExample {
+	public static void main(String[] abc){
+		int day[] = {31,21,45,47,17, 31};
+		System.out.println("The important dates are"+day[6]);
+		
+		
+	}
+
+}
+ 

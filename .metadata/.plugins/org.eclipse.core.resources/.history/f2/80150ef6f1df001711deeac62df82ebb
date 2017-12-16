@@ -1,0 +1,22 @@
+import org.junit.BeforeClass;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.collaboration.backend.Collaboration.Backend.Dao.UserDao;
+
+public class UserTest {
+	@Autowired
+	static ApplicationContext context;
+	@Autowired
+	UserDao userDao;
+	
+	@BeforeClass
+	public static void init(){
+		context = new AnnotationConfigApplicationContext();
+		context.scan("com");
+		
+		
+	}
+
+}

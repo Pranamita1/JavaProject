@@ -1,0 +1,42 @@
+package com.collaboration.backend.test;
+
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.collaboration.backend.Collaboration.Backend.Dao.UserDao;
+import com.collaboration.backend.Collaboration.Backend.Model.User;
+
+/*import junit.framework.Assert;*/
+
+public class UserTest {
+	 
+	@Autowired
+	static AnnotationConfigApplicationContext context;
+	@Autowired
+	static UserDao userDao;
+	@Autowired
+	static User user;
+	
+	@BeforeClass
+	public static void init(){
+		context = new AnnotationConfigApplicationContext();
+		context.scan("com.collaboration.backend");
+		context.refresh();
+		userDao=(UserDao)context.getBean("userDao");
+		user=(User)context.getBean("user");
+		
+	}
+	@Test
+	public void usertest(){
+		user.setUser_name("prana");
+		user.setEmail("abc@mail.com");
+		user.setContact_number("123456");
+		Assert.assertEquals(true, userDao.registerUser(user));
+		 
+		
+	}
+
+}
